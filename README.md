@@ -23,3 +23,6 @@ else
     echo $passphrase | $pswd_cmd get | rofi -dmenu | cut -d "[" -f2 | cut -d "]" -f1 | xargs | xclip -selection clipboard
 fi
 ```
+
+![](assets/example.gif)
+
